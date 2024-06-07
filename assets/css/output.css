@@ -1724,10 +1724,6 @@ input:checked + .toggle-bg {
   list-style-position: outside;
 }
 
-.list-disc {
-  list-style-type: disc;
-}
-
 .appearance-none {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -2769,14 +2765,6 @@ input:checked + .toggle-bg {
   padding: 1vw;
 }
 
-.p-\[\] {
-  padding: ;
-}
-
-.p-\[5vw\] {
-  padding: 5vw;
-}
-
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -2795,6 +2783,11 @@ input:checked + .toggle-bg {
 .px-\[2vw\] {
   padding-left: 2vw;
   padding-right: 2vw;
+}
+
+.px-\[5vw\] {
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 .py-2 {
@@ -2820,25 +2813,6 @@ input:checked + .toggle-bg {
 .py-\[5vw\] {
   padding-top: 5vw;
   padding-bottom: 5vw;
-}
-
-.px-\[\] {
-  padding-left: ;
-  padding-right: ;
-}
-
-.px-\[5\] {
-  padding-left: 5;
-  padding-right: 5;
-}
-
-.px-\[5vw\] {
-  padding-left: 5vw;
-  padding-right: 5vw;
-}
-
-.ps-5 {
-  padding-inline-start: 1.25rem;
 }
 
 .pt-2 {
@@ -2933,6 +2907,14 @@ input:checked + .toggle-bg {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-\[1\.4vw\] {
+  font-size: 1.4vw;
+}
+
+.text-\[1\.2vw\] {
+  font-size: 1.2vw;
 }
 
 .font-bold {
@@ -3069,10 +3051,6 @@ input:checked + .toggle-bg {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .underline {
@@ -3410,12 +3388,12 @@ input:checked + .toggle-bg {
   transition-duration: 150ms;
 }
 
-.duration-700 {
-  transition-duration: 700ms;
-}
-
 .duration-300 {
   transition-duration: 300ms;
+}
+
+.duration-700 {
+  transition-duration: 700ms;
 }
 
 .ease-in {
@@ -3478,6 +3456,10 @@ input:checked + .toggle-bg {
 
 .forced-color-adjust-none {
   forced-color-adjust: none;
+}
+
+*{
+  scroll-behavior: smooth;
 }
 
 @media (min-width: 640px) {

@@ -18,15 +18,15 @@
     <nav
       class="w-full p-[1vw] bg-[#D9D9D9] bg-opacity-70 flex items-center justify-between font-poppins fixed font-semibold text-[#0C0C0C]"
     >
-      <div class="">
+      <div class="text-[1.4vw]">
         <h1>English</h1>
         <h1>Course</h1>
       </div>
-      <div class="flex flex-row gap-[1vw] w-[50%]">
-        <a href="">Program Kursus</a>
-        <a href="">Paket Kelas</a>
-        <a href="">Sertifikasi</a>
-        <a href="">Daftar</a>
+      <div class="flex flex-row gap-[1vw] w-[50%] text-[1.2vw]" id="navLink">
+        <a class="w-fit" href="#eng">Program Kursus</a>
+        <a class="w-fit" href="">Paket Kelas</a>
+        <a class="w-fit" href="./sertifikasi.html">Sertifikasi</a>
+        <a class="w-fit" href="">Daftar</a>
       </div>
     </nav>
     <section
@@ -111,9 +111,10 @@
         </div>
       </div>
     </section>
-    <!--  -->
+    <!-- Course -->
     <section
       class="w-full h-screen flex items-center justify-between font-poppins"
+      id="eng"
     >
       <div class="">
         <img src="./assets/img/bg-1-img.png" alt="" class="w-[20vw]" />
@@ -148,12 +149,14 @@
       </div>
     </section>
     <!-- FAQ -->
-    <section class="w-full h-screen flex flex-col justify-center items-center ">
-      <h1 class="font-poppins font-semibold text-[3vw] py-[5vw]">Pertanyaan yang sering ditanyakan</h1>
+    <section class="w-full h-screen flex flex-col justify-center items-center">
+      <h1 class="font-poppins font-semibold text-[3vw] py-[5vw]">
+        Pertanyaan yang sering ditanyakan
+      </h1>
       <div
         id="accordion-open"
         data-accordion="open"
-        class="w-full  text-[1.6vw] px-[5vw] font-poppins duration-300"
+        class="w-full text-[1.6vw] px-[5vw] font-poppins duration-300"
       >
         <h2 id="accordion-open-heading-1" class="w-full">
           <button
@@ -319,8 +322,13 @@
           >
             <p class="mb-2 text-gray-500 dark:text-gray-400">
               Lokasinya dapat di sesuaikan / ditentukan, bisa di rumah atau ke
-              tempat kursus yang berlokasi di Jalan Gatot Subroto 4 Block 11 No
-              17x, Denpasar Utara, Bali.
+              tempat kursus yang berlokasi di
+              <a
+                href="https://maps.app.goo.gl/vfYVcQVm436ZxbeP8"
+                class="text-blue-600 hover:underline"
+              >
+                Jalan Gatot Subroto 4 Block 11 No 17x, Denpasar Utara, Bali.</a
+              >
             </p>
             <p class="mb-2 text-gray-500 dark:text-gray-400">
               Jika memilih untuk melakukan kursus di rumah, akan di kenakan
@@ -335,6 +343,7 @@
       </div>
     </section>
 
+    <script src="./assets/js/app.js"></script>
     <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
   </body>
 </html>
