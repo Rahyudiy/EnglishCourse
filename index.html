@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>English</title>
+    <title>Language</title>
     <link rel="stylesheet" href="assets/css/output.css" />
     <link rel="stylesheet" href="assets/css/input.css" />
     <link
@@ -16,25 +16,31 @@
   </head>
   <body class="">
     <nav
-      class="w-full p-[1vw] bg-[#D9D9D9] bg-opacity-70 flex items-center justify-between font-poppins fixed font-semibold text-[#0C0C0C]"
+      class="w-full p-[1vw] bg-[#107ec1] bg-opacity-70 text-[#f4f5f9] flex items-center justify-between font-poppins fixed font-semibold"
     >
       <div class="text-[1.4vw]">
-        <h1>English</h1>
+        <h1>Language</h1>
         <h1>Course</h1>
       </div>
-      <div class="flex flex-row gap-[1vw] w-[50%] text-[1.2vw]" id="navLink">
-        <a class="w-fit" href="#eng">Program Kursus</a>
-        <a class="w-fit" href="">Paket Kelas</a>
-        <a class="w-fit" href="./sertifikasi.html">Sertifikasi</a>
-        <a class="w-fit" href="">Daftar</a>
+      <div
+        class="flex flex-row gap-[1vw] items-center w-[50%] text-[1.2vw]"
+        id="navLink"
+      >
+        <a class="px-[2vw] py-[1.2vw]" href="#eng">Program Kursus</a>
+        <a class="px-[2vw] py-[1.2vw]" href="">Paket Kelas</a>
+        <a class="px-[2vw] py-[1.2vw]" href="./sertifikasi.html">Sertifikasi</a>
+        <a class="px-[2vw] py-[1.2vw]" href="">Daftar</a>
+      </div>
+      <div class="icon-nav" id="navIcon">
+        <i class="fa-solid fa-bars" onclick="toggleNavbar()"></i>
       </div>
     </nav>
     <section
       class="w-full h-screen bg-cover bg-bottom bg-no-repeat flex justify-center items-center"
       style="background-image: url('assets/img/bg-1-img.png')"
     >
-      <div class="text-center text-white font-poppins font-semibold">
-        <h1>Kelas Bahasa Inggris</h1>
+      <div class="text-center text-[#f4f5f9] font-poppins font-semibold">
+        <h1>Kelas Bahasa</h1>
         <h1 class="text-[3vw]">Mr.Putra</h1>
         <i
           class="fa-solid fa-arrow-down animate-updown mt-[8vw] text-[2vw]"
@@ -75,35 +81,35 @@
       <!-- Card Achivement -->
       <div class="flex justify-around mt-[4vw]">
         <div
-          class="w-[22vw] hover:-translate-y-5 hover:border-t-[0.8vw] hover:border-solid hover:border-[#55CBFF] duration-700 hover:scale-105 bg-[#FFFAFA] p-[1vw] flex items-center flex-col rounded-[0.6vw] drop-shadow-xl"
+          class="w-[25vw] hover:-translate-y-5 hover:border-t-[0.8vw] hover:border-solid hover:border-[#55CBFF] duration-700 hover:scale-105 bg-[#FFFAFA] p-[1vw] flex items-center flex-col rounded-[0.6vw] drop-shadow-xl"
         >
           <img src="./assets/img/icon-1.png" alt="icon" class="w-[15vw]" />
           <div class="text-center">
             <h2 class="font-semibold text-[1.8vw] my-[1vw]">Berpengalaman</h2>
-            <p class="text-[1.3vw]">
+            <p class="text-[1.3vw] text-[#717171]">
               Berpengalaman dalam mengajar, baik anak anak sampai dewasa
             </p>
           </div>
         </div>
         <div
-          class="w-[22vw] hover:-translate-y-5 hover:border-t-[0.8vw] hover:border-solid hover:border-[#55CBFF] duration-700 hover:scale-105 bg-[#FFFAFA] p-[1vw] flex items-center flex-col rounded-[0.6vw] drop-shadow-xl"
+          class="w-[25vw] hover:-translate-y-5 hover:border-t-[0.8vw] hover:border-solid hover:border-[#55CBFF] duration-700 hover:scale-105 bg-[#FFFAFA] p-[1vw] flex items-center flex-col rounded-[0.6vw] drop-shadow-xl"
         >
           <img src="./assets/img/icon-2.png" alt="icon" class="w-[15vw]" />
           <div class="text-center">
             <h2 class="font-semibold text-[1.8vw] my-[1vw]">Terbaik</h2>
-            <p class="text-[1.3vw]">
+            <p class="text-[1.3vw] text-[#717171]">
               Garansi pasti bisa, dibimbing oleh guru berpengalaman dan
               breprestasi
             </p>
           </div>
         </div>
         <div
-          class="w-[22vw] hover:-translate-y-5 hover:border-t-[0.8vw] hover:border-solid hover:border-[#55CBFF] duration-700 hover:scale-105 bg-[#FFFAFA] p-[1vw] flex items-center flex-col rounded-[0.6vw] drop-shadow-xl"
+          class="w-[25vw] hover:-translate-y-5 hover:border-t-[0.8vw] hover:border-solid hover:border-[#55CBFF] duration-700 hover:scale-105 bg-[#FFFAFA] p-[1vw] flex items-center flex-col rounded-[0.6vw] drop-shadow-xl"
         >
           <img src="./assets/img/icon-3.png" alt="icon" class="w-[15vw]" />
           <div class="text-center">
             <h2 class="font-semibold text-[1.8vw] my-[1vw]">Termurah</h2>
-            <p class="text-[1.3vw]">
+            <p class="text-[1.3vw] text-[#717171]">
               Dijamin harga termurah dengan materi paling lengkap dan dapat
               disesuaikan
             </p>
@@ -112,39 +118,162 @@
       </div>
     </section>
     <!-- Course -->
-    <section
-      class="w-full h-screen flex items-center justify-between font-poppins"
-      id="eng"
-    >
-      <div class="">
-        <img src="./assets/img/bg-1-img.png" alt="" class="w-[20vw]" />
+    <section class="w-full h-full" id="eng">
+      <div
+        class="w-full h-screen flex items-center justify-between font-poppins"
+      >
+        <div class="">
+          <img src="./assets/img/bg-1-img.png" alt="" class="w-[20vw]" />
+        </div>
+        <div class="w-[45%]">
+          <div class="">
+            <p
+              class="tracking-widest font-semibold text-[#004E6F] text-[1.3vw]"
+            >
+              KELAS BAHASA UNGGULAN
+            </p>
+            <h1 class="font-semibold text-[3vw]">Garansi Pasti Bisa</h1>
+            <p class="text-[1.3vw]">
+              Dengan metode belajar yang benar, bahasa Inggris jadi mudah dan
+              menyenangkan, ayo join sekarang dan dapatkan:
+            </p>
+          </div>
+          <div class="px-[1.2vw] my-[3vw]">
+            <ul
+              style="list-style: '✅'"
+              class="text-[1.3vw] list-outside gap-[0.8vw] flex flex-col"
+            >
+              <li>Metode Ramah Otak yang seru dan menyenangkan</li>
+              <li>Dibimbing oleh guru berpengalaman</li>
+              <li>Tutor pendamping berjiwa muda dan fleksibel</li>
+              <li>Garansi pasti bisa</li>
+            </ul>
+          </div>
+          <div class="hover:scale-110 w-fit duration-200">
+            <a
+              href=""
+              class="px-[2vw] py-[1vw] shadow-2xl bg-[#55CBFF] rounded-lg text-[#f4f5f9] font-semibold"
+              ><i class="fa-brands fa-whatsapp" style="color: #ffffff"></i>
+              Hubungi saya</a
+            >
+          </div>
+        </div>
       </div>
-      <div class="w-[45%]">
-        <div class="">
-          <p class="tracking-widest font-semibold text-[#004E6F] text-[1.3vw]">
-            KELAS BAHASA INGGRIS
-          </p>
-          <h1 class="font-semibold text-[3vw]">Garansi Pasti Bisa</h1>
-          <p class="text-[1.3vw]">
-            Dengan metode belajar yang benar, bahasa Inggris jadi mudah dan
-            menyenangkan, ayo join sekarang dan dapatkan:
-          </p>
+      <!-- English -->
+      <div
+        class="w-full h-screen text-[#f4f5f9] p-[2vw] flex items-center justify-between font-poppins bg-custom-linear"
+      >
+        <div class="w-[45%]">
+          <div class="">
+            <p
+              class="tracking-widest font-semibold text-[1.3vw]"
+            >
+              KELAS UNGGULAN
+            </p>
+            <h1 class="font-semibold text-[3vw]">Bahasa Inggris</h1>
+            <p class="text-[1.3vw]">
+              Dengan metode belajar yang benar, bahasa Inggris jadi mudah dan
+              menyenangkan, ayo join sekarang dan dapatkan:
+            </p>
+          </div>
+          <div class="px-[1.2vw] my-[3vw]">
+            <ul
+              style="list-style: '✅'"
+              class="text-[1.3vw] list-outside gap-[0.8vw] flex flex-col"
+            >
+              <li>Metode Ramah Otak yang seru dan menyenangkan</li>
+              <li>Dibimbing oleh guru berpengalaman</li>
+              <li>Tutor pendamping berjiwa muda dan fleksibel</li>
+              <li>Garansi pasti bisa</li>
+            </ul>
+          </div>
+          <div class="hover:scale-110 w-fit duration-200">
+            <a
+              href=""
+              class="px-[2vw] py-[1vw] shadow-2xl bg-[#55CBFF] rounded-lg text-[#f4f5f9] font-semibold"
+              ><i class="fa-brands fa-whatsapp" style="color: #ffffff"></i>
+              Hubungi saya</a
+            >
+          </div>
         </div>
-        <div class="px-[1.2vw] my-[3vw]">
-          <ul style="list-style: '✅'" class="text-[1.3vw] list-outside">
-            <li>Metode Ramah Otak yang seru dan menyenangkan</li>
-            <li>Dibimbing oleh guru berpengalaman</li>
-            <li>Tutor pendamping berjiwa muda dan fleksibel</li>
-            <li>Garansi pasti bisa</li>
-          </ul>
-        </div>
+      </div>
+      <!-- Japan -->
+      <div
+        class="w-full h-screen flex items-center justify-between font-poppins"
+      >
         <div class="">
-          <a
-            href=""
-            class="px-[2vw] py-[1vw] bg-[#55CBFF] rounded-lg text-white font-semibold"
-            ><i class="fa-brands fa-whatsapp" style="color: #ffffff"></i>
-            Hubungi saya</a
-          >
+          <img src="./assets/img/bg-1-img.png" alt="" class="w-[20vw]" />
+        </div>
+        <div class="w-[45%]">
+          <div class="">
+            <p
+              class="tracking-widest font-semibold text-[#004E6F] text-[1.3vw]"
+            >
+              KELAS UNGGULAN
+            </p>
+            <h1 class="font-semibold text-[3vw]">Bahasa Jepang</h1>
+            <p class="text-[1.3vw]">
+              Dengan metode belajar yang benar, bahasa Inggris jadi mudah dan
+              menyenangkan, ayo join sekarang dan dapatkan:
+            </p>
+          </div>
+          <div class="px-[1.2vw] my-[3vw]">
+            <ul
+              style="list-style: '✅'"
+              class="text-[1.3vw] list-outside gap-[0.8vw] flex flex-col"
+            >
+              <li>Metode Ramah Otak yang seru dan menyenangkan</li>
+              <li>Dibimbing oleh guru berpengalaman</li>
+              <li>Tutor pendamping berjiwa muda dan fleksibel</li>
+              <li>Garansi pasti bisa</li>
+            </ul>
+          </div>
+          <div class="hover:scale-110 w-fit duration-200">
+            <a
+              href=""
+              class="px-[2vw] py-[1vw] shadow-2xl bg-[#55CBFF] rounded-lg text-[#f4f5f9] font-semibold"
+              ><i class="fa-brands fa-whatsapp" style="color: #ffffff"></i>
+              Hubungi saya</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- Korean -->
+      <div
+        class="w-full h-screen flex items-center justify-between font-poppins p-[2vw] bg-custom-linear text-[#f4f5f9]"
+      >
+        <div class="w-[45%]">
+          <div class="">
+            <p
+              class="tracking-widest font-semibold text-[1.3vw]"
+            >
+              KELAS UNGGULAN
+            </p>
+            <h1 class="font-semibold text-[3vw]">Bahasa Korea</h1>
+            <p class="text-[1.3vw]">
+              Dengan metode belajar yang benar, bahasa Inggris jadi mudah dan
+              menyenangkan, ayo join sekarang dan dapatkan:
+            </p>
+          </div>
+          <div class="px-[1.2vw] my-[3vw]">
+            <ul
+              style="list-style: '✅'"
+              class="text-[1.3vw] list-outside gap-[0.8vw] flex flex-col"
+            >
+              <li>Metode Ramah Otak yang seru dan menyenangkan</li>
+              <li>Dibimbing oleh guru berpengalaman</li>
+              <li>Tutor pendamping berjiwa muda dan fleksibel</li>
+              <li>Garansi pasti bisa</li>
+            </ul>
+          </div>
+          <div class="hover:scale-110 w-fit duration-200">
+            <a
+              href=""
+              class="px-[2vw] py-[1vw] shadow-2xl bg-[#55CBFF] rounded-lg text-[#f4f5f9] font-semibold"
+              ><i class="fa-brands fa-whatsapp" style="color: #ffffff"></i>
+              Hubungi saya</a
+            >
+          </div>
         </div>
       </div>
     </section>
@@ -343,7 +472,7 @@
       </div>
     </section>
 
-    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/app.js "></script>
     <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
   </body>
 </html>
