@@ -16,14 +16,14 @@
   </head>
   <body class="">
     <nav
-      class="w-full p-[1vw] bg-[#107ec1] bg-opacity-70 text-[#f4f5f9] flex items-center justify-between font-poppins fixed font-semibold"
+      class="w-full md:p-[1vw] p-[3vw] bg-[#107ec1] bg-opacity-70 text-[#f4f5f9] flex items-center justify-between font-poppins fixed font-semibold"
     >
-      <div class="text-[1.4vw]">
+      <div class="md:text-[1.4vw] text-[4vw]">
         <h1>Language</h1>
         <h1>Course</h1>
       </div>
       <div
-        class="flex flex-row gap-[1vw] items-center w-[50%] text-[1.2vw]"
+        class="flex flex-row gap-[1vw] items-center w-[50%] md:text-[1.2vw] text-[2.4vw]"
         id="navLink"
       >
         <a class="px-[2vw] py-[1.2vw]" href="#eng">Program Kursus</a>
@@ -48,14 +48,22 @@
       </div>
     </section>
     <!-- Profile Bio -->
-    <section class="h-screen w-full flex items-center justify-between">
+    <section
+      class="h-screen w-full flex md:flex-row flex-col items-center md:justify-between justify-around"
+    >
       <div class="w-fit">
         <img src="./assets/img/bg-1-img.png" alt="" class="w-[20vw]" />
         <p>a</p>
       </div>
       <div class="font-poppins text-[#0C0C0C] w-fit">
-        <h1 class="text-[3vw] font-semibold mb-[2vw]">Siapa Mr.Putra?</h1>
-        <div class="w-[40vw] text-[1.3vw] text-justify">
+        <h1
+          class="md:text-[3vw] font-semibold md:px-0 px-[2vw] mb-[2vw] text-[7vw]"
+        >
+          Siapa Mr.Putra?
+        </h1>
+        <div
+          class="md:w-[40vw] w-full md:px-0 px-[2vw] md:text-[1.3vw] text-[4vw] text-justify"
+        >
           <p class="mb-[1vw]">
             Lulusan berprestasi dari SMK Negeri 5 Denpasar yang saat ini sedang
             menepuh pendidikan di Universitas Udayana. Seorang mahasiswa yang
@@ -71,45 +79,71 @@
     </section>
     <!-- Trusted Achivement -->
     <section class="h-fit w-full bg-[#f4f5f9] font-poppins py-[5vw]">
-      <div class="w-full text-center">
-        <h1 class="font-semibold text-[3vw]">Why Choose Us?</h1>
-        <p class="text-[1.3vw]">
+      <div class="w-full text-center md:px-0 px-[2vw]">
+        <h1 class="font-semibold md:text-[3vw] text-[7vw]">Why Choose Us?</h1>
+        <p class="md:text-[1.3vw] text-[4vw]">
           Alasan kenapa Anda harus memilih saya sebagai partner pelatihan bahasa
           inggris
         </p>
       </div>
       <!-- Card Achivement -->
-      <div class="flex justify-around mt-[4vw]">
+      <div
+        class="flex md:flex-row flex-col md:justify-around md:gap-0 gap-[8vw] justify-center md:items-start items-center mt-[4vw]"
+      >
         <div
-          class="w-[25vw] hover:-translate-y-5 hover:border-t-[0.8vw] hover:border-solid hover:border-[#55CBFF] duration-700 hover:scale-105 bg-[#FFFAFA] p-[1vw] flex items-center flex-col rounded-[0.6vw] drop-shadow-xl"
+          class="md:w-[25vw] w-[65vw] hover:-translate-y-5 hover:border-t-[0.8vw] hover:border-solid hover:border-[#55CBFF] duration-700 hover:scale-105 bg-[#FFFAFA] p-[1vw] flex items-center flex-col rounded-[0.6vw] drop-shadow-xl"
         >
-          <img src="./assets/img/icon-1.png" alt="icon" class="w-[15vw]" />
+          <img
+            src="./assets/img/icon-1.png"
+            alt="icon"
+            class="md:w-[15vw] w-[25vw] md:mt-0 mt-[5vw]"
+          />
           <div class="text-center">
-            <h2 class="font-semibold text-[1.8vw] my-[1vw]">Berpengalaman</h2>
-            <p class="text-[1.3vw] text-[#717171]">
+            <h2 class="font-semibold md:text-[1.8vw] text-[4.8vw] my-[1vw]">
+              Berpengalaman
+            </h2>
+            <p
+              class="md:text-[1.3vw] text-[4vw] md:mt-0 mt-[15vw] text-[#717171]"
+            >
               Berpengalaman dalam mengajar, baik anak anak sampai dewasa
             </p>
           </div>
         </div>
         <div
-          class="w-[25vw] hover:-translate-y-5 hover:border-t-[0.8vw] hover:border-solid hover:border-[#55CBFF] duration-700 hover:scale-105 bg-[#FFFAFA] p-[1vw] flex items-center flex-col rounded-[0.6vw] drop-shadow-xl"
+          class="md:w-[25vw] w-[65vw] hover:-translate-y-5 hover:border-t-[0.8vw] hover:border-solid hover:border-[#55CBFF] duration-700 hover:scale-105 bg-[#FFFAFA] p-[1vw] flex items-center flex-col rounded-[0.6vw] drop-shadow-xl"
         >
-          <img src="./assets/img/icon-2.png" alt="icon" class="w-[15vw]" />
+          <img
+            src="./assets/img/icon-2.png"
+            alt="icon"
+            class="md:w-[15vw] w-[25vw] md:mt-0 mt-[5vw]"
+          />
           <div class="text-center">
-            <h2 class="font-semibold text-[1.8vw] my-[1vw]">Terbaik</h2>
-            <p class="text-[1.3vw] text-[#717171]">
+            <h2 class="font-semibold md:text-[1.8vw] text-[4.8vw] my-[1vw]">
+              Terbaik
+            </h2>
+            <p
+              class="md:text-[1.3vw] text-[4vw] md:mt-0 mt-[15vw] text-[#717171]"
+            >
               Garansi pasti bisa, dibimbing oleh guru berpengalaman dan
               breprestasi
             </p>
           </div>
         </div>
         <div
-          class="w-[25vw] hover:-translate-y-5 hover:border-t-[0.8vw] hover:border-solid hover:border-[#55CBFF] duration-700 hover:scale-105 bg-[#FFFAFA] p-[1vw] flex items-center flex-col rounded-[0.6vw] drop-shadow-xl"
+          class="md:w-[25vw] w-[65vw] hover:-translate-y-5 hover:border-t-[0.8vw] hover:border-solid hover:border-[#55CBFF] duration-700 hover:scale-105 bg-[#FFFAFA] p-[1vw] flex items-center flex-col rounded-[0.6vw] drop-shadow-xl"
         >
-          <img src="./assets/img/icon-3.png" alt="icon" class="w-[15vw]" />
+          <img
+            src="./assets/img/icon-3.png"
+            alt="icon"
+            class="md:w-[15vw] w-[25vw] md:mt-0 mt-[5vw]"
+          />
           <div class="text-center">
-            <h2 class="font-semibold text-[1.8vw] my-[1vw]">Termurah</h2>
-            <p class="text-[1.3vw] text-[#717171]">
+            <h2 class="font-semibold md:text-[1.8vw] text-[4.8vw] my-[1vw]">
+              Termurah
+            </h2>
+            <p
+              class="md:text-[1.3vw] text-[4vw] md:mt-0 mt-[15vw] text-[#717171]"
+            >
               Dijamin harga termurah dengan materi paling lengkap dan dapat
               disesuaikan
             </p>
@@ -120,20 +154,26 @@
     <!-- Course -->
     <section class="w-full h-full" id="eng">
       <div
-        class="w-full h-screen flex items-center justify-between font-poppins"
+        class="w-full h-screen flex md:flex-row flex-col items-center md:justify-between justify-around font-poppins"
       >
-        <div class="">
-          <img src="./assets/img/bg-1-img.png" alt="" class="w-[20vw]" />
+        <div class="flex justify-center w-[55%]">
+          <img
+            src="./assets/img/language-flags.png"
+            alt=""
+            class="md:w-[30vw] w-[60vw] drop-shadow-2xl"
+          />
         </div>
-        <div class="w-[45%]">
+        <div class="md:w-[45%] w-full md:px-0 px-[4vw]">
           <div class="">
             <p
-              class="tracking-widest font-semibold text-[#004E6F] text-[1.3vw]"
+              class="tracking-widest font-semibold text-[#004E6F] md:text-[1.3vw] text-[3vw]"
             >
               KELAS BAHASA UNGGULAN
             </p>
-            <h1 class="font-semibold text-[3vw]">Garansi Pasti Bisa</h1>
-            <p class="text-[1.3vw]">
+            <h1 class="font-semibold md:text-[3vw] text-[7vw]">
+              Garansi Pasti Bisa
+            </h1>
+            <p class="md:text-[1.3vw] text-[3vw]">
               Dengan metode belajar yang benar, bahasa Inggris jadi mudah dan
               menyenangkan, ayo join sekarang dan dapatkan:
             </p>
@@ -141,7 +181,7 @@
           <div class="px-[1.2vw] my-[3vw]">
             <ul
               style="list-style: '✅'"
-              class="text-[1.3vw] list-outside gap-[0.8vw] flex flex-col"
+              class="md:text-[1.3vw] text-[3vw] list-outside gap-[0.8vw] flex flex-col"
             >
               <li>Metode Ramah Otak yang seru dan menyenangkan</li>
               <li>Dibimbing oleh guru berpengalaman</li>
@@ -149,7 +189,9 @@
               <li>Garansi pasti bisa</li>
             </ul>
           </div>
-          <div class="hover:scale-110 w-fit duration-200 text-[1.3vw]">
+          <div
+            class="hover:scale-110 w-fit duration-200 md:text-[1.3vw] text-[3vw]"
+          >
             <a
               href=""
               class="px-[2vw] py-[1vw] shadow-2xl bg-[#55CBFF] rounded-lg text-[#f4f5f9] font-semibold"
@@ -161,15 +203,17 @@
       </div>
       <!-- English -->
       <div
-        class="w-full h-screen text-[#f4f5f9] p-[2vw] flex items-center justify-between font-poppins bg-custom-linear"
+        class="w-full h-screen text-[#f4f5f9] p-[2vw] flex md:flex-row flex-col-reverse items-center md:justify-between justify-around font-poppins bg-custom-linear"
       >
-        <div class="w-[45%]">
+        <div class="md:w-[45%] w-full">
           <div class="">
-            <p class="tracking-widest font-semibold text-[1.3vw]">
+            <p class="tracking-widest font-semibold md:text-[1.3vw] text-[3vw]">
               KELAS UNGGULAN
             </p>
-            <h1 class="font-semibold text-[3vw]">Bahasa Inggris</h1>
-            <p class="text-[1.3vw] my-[3vw]">
+            <h1 class="font-semibold md:text-[3vw] text-[7vw]">
+              Bahasa Inggris
+            </h1>
+            <p class="md:text-[1.3vw] text-[3vw] my-[3vw]">
               Kelas bahasa Inggris yang menerapkan sistem belajar secara
               interaktif dengan metode belajar ramah otak yang pastinya
               menyenangkan namun efektif bikin kamu jadi jago bahasa Inggris
@@ -178,7 +222,9 @@
               grammar, listening, reading, dan writing.
             </p>
           </div>
-          <div class="hover:scale-110 w-fit duration-200 text-[1.3vw]">
+          <div
+            class="hover:scale-110 w-fit duration-200 md:text-[1.3vw] text-[3vw]"
+          >
             <a
               href=""
               class="px-[2vw] py-[1vw] shadow-2xl bg-[#55CBFF] rounded-lg text-[#f4f5f9] font-semibold"
@@ -189,20 +235,22 @@
       </div>
       <!-- Japan -->
       <div
-        class="w-full h-screen flex items-center justify-between font-poppins"
+        class="w-full p-[2vw] h-screen flex md:flex-row flex-col items-center md:justify-between justify-around font-poppins"
       >
         <div class="">
           <img src="./assets/img/bg-1-img.png" alt="" class="w-[20vw]" />
         </div>
-        <div class="w-[45%]">
+        <div class="md:w-[45%] w-full">
           <div class="">
             <p
-              class="tracking-widest font-semibold text-[#004E6F] text-[1.3vw]"
+              class="tracking-widest font-semibold text-[#004E6F] md:text-[1.3vw] text-[3vw]"
             >
               KELAS UNGGULAN
             </p>
-            <h1 class="font-semibold text-[3vw]">Bahasa Jepang</h1>
-            <p class="text-[1.3vw] my-[3vw]">
+            <h1 class="font-semibold md:text-[3vw] text-[7vw]">
+              Bahasa Jepang
+            </h1>
+            <p class="md:text-[1.3vw] text-[3vw] my-[3vw]">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
               ipsam laborum doloremque recusandae itaque! Harum ut autem iure
               dolorum facere! Lorem, ipsum dolor sit amet consectetur
@@ -210,7 +258,9 @@
             </p>
           </div>
 
-          <div class="hover:scale-110 w-fit duration-200 text-[1.3vw]">
+          <div
+            class="hover:scale-110 w-fit duration-200 md:text-[1.3vw] text-[3vw]"
+          >
             <a
               href=""
               class="px-[2vw] py-[1vw] shadow-2xl bg-[#55CBFF] rounded-lg text-[#f4f5f9] font-semibold"
@@ -221,15 +271,15 @@
       </div>
       <!-- Korean -->
       <div
-        class="w-full h-screen flex items-center justify-between font-poppins p-[2vw] bg-custom-linear text-[#f4f5f9]"
+        class="w-full h-screen flex md:flex-row flex-col-reverse items-center md:justify-between justify-around font-poppins p-[2vw] bg-custom-linear text-[#f4f5f9]"
       >
-        <div class="w-[45%]">
+        <div class="md:w-[45%] w-full">
           <div class="">
-            <p class="tracking-widest font-semibold text-[1.3vw]">
+            <p class="tracking-widest font-semibold md:text-[1.3vw] text-[3vw]">
               KELAS UNGGULAN
             </p>
-            <h1 class="font-semibold text-[3vw]">Bahasa Korea</h1>
-            <p class="text-[1.3vw] my-[3vw]">
+            <h1 class="font-semibold md:text-[3vw] text-[7vw]">Bahasa Korea</h1>
+            <p class="md:text-[1.3vw] text-[3vw] my-[3vw]">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
               totam ut provident cumque quaerat laboriosam delectus, iusto
               corporis, nulla facere repudiandae quos officia et quis ipsum quia
@@ -237,7 +287,9 @@
             </p>
           </div>
 
-          <div class="hover:scale-110 w-fit duration-200 text-[1.3vw]">
+          <div
+            class="hover:scale-110 w-fit duration-200 md:text-[1.3vw] text-[3vw]"
+          >
             <a
               href=""
               class="px-[2vw] py-[1vw] shadow-2xl bg-[#55CBFF] rounded-lg text-[#f4f5f9] font-semibold"
@@ -250,40 +302,44 @@
     <!-- Price -->
     <section
       class="h-screen w-full items-center flex bg-[#f4f5f9] font-poppins py-[5vw]"
+      id="price"
     >
       <div class="w-full text-center flex flex-col items-center">
-        <h1 class="font-semibold text-[1.3vw]">Hanya</h1>
+        <h1 class="font-semibold md:text-[1.3vw] text-[3vw]">Hanya</h1>
         <h1
-          class="font-bebasNue text-[8vw] hover:scale-110 px-[1vw] py-[0.8vw] hover:bg-white hover:rounded-2xl hover:shadow-2xl duration-300 w-fit text-[#3980d7] font-bold"
+          class="font-bebasNue md:text-[8vw] rounded-xl  text-[16vw] px-[1vw] py-[0.8vw] duration-300 w-fit text-[#3980d7] font-bold price-zoom-in"
+          id="priceTag"
         >
           Rp.10.000
         </h1>
-        <h1 class="font-semibold text-[1.3vw]">Per Jamnya!</h1>
+        <h1 class="font-semibold md:text-[1.3vw] text-[3vw]">Per Jamnya!</h1>
       </div>
     </section>
     <!-- Lets Join Us -->
     <section class="h-full w-full p-[4vw] font-poppins">
       <div class="w-full text-center">
-        <h1 class="text-[3vw] font-semibold">Ayo gabung sekarang!</h1>
-        <h1 class="text-[1.3vw]">
+        <h1 class="md:text-[3vw] text-[7vw] font-semibold">
+          Ayo gabung sekarang!
+        </h1>
+        <h1 class="md:text-[1.3vw] text-[3vw]">
           Kapan lagi bisa jago bahasa asing cuma 10 ribuu
         </h1>
       </div>
     </section>
     <!-- FAQ -->
     <section class="w-full h-screen flex flex-col justify-center items-center">
-      <h1 class="font-poppins font-semibold text-[3vw] py-[5vw]">
+      <h1 class="font-poppins font-semibold md:text-[3vw] text-[5vw] py-[5vw]">
         Pertanyaan yang sering ditanyakan
       </h1>
       <div
         id="accordion-open"
         data-accordion="open"
-        class="w-full text-[1.6vw] px-[5vw] font-poppins duration-300"
+        class="w-full md:text-[1.6vw] text-[4vw] px-[5vw] font-poppins duration-300"
       >
         <h2 id="accordion-open-heading-1" class="w-full">
           <button
             type="button"
-            class="flex items-center justify-between w-full p-[1vw] font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+            class="flex items-center justify-between w-full md:p-[1vw] p-[3vw] font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
             data-accordion-target="#accordion-open-body-1"
             aria-expanded="true"
             aria-controls="accordion-open-body-1"
