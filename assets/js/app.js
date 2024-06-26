@@ -20,3 +20,8 @@ window.addEventListener("scroll", function () {
     priceTag.classList.remove("price-zoom-in");
   }
 });
+
+
+//year
+const thisYear = new Date().getFullYear();
+document.getElementById("year").innerHTML = thisYear;
